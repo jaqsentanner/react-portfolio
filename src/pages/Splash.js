@@ -7,7 +7,10 @@ const Splash = () => {
 
     return (
         <div>
-            
+            <div className="animation">
+                <div><img src="./no_limits.png" width="800px" height="350px"></img></div>
+                
+            </div>
         </div>
     );
 

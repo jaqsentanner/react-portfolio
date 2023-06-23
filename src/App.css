@@ -19,4 +19,44 @@ nav {
   margin-bottom: 4px;
 }
 
+.bottomfoot {
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+
+.codeoverride {
+  font-family:monospace;
+  color:orange;
+}
+
+Footer {
+  display:flex;
+  text-align: center;
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+.footicon {
+  margin-left: 3px;
+  color: #5590C0;
+}
+
+.animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 75px;
+}
+
+
+
+
+
+
+
+
+
 
