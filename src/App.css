@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
   background-color: #E4E2DD;
+  
 }
 
 nav {
@@ -27,7 +30,7 @@ nav {
 
 .codeoverride {
   font-family:monospace;
-  color:orange;
+  color:rgb(255, 255, 255);
 }
 
 Footer {
@@ -41,19 +44,70 @@ Footer {
 
 .footicon {
   margin-left: 3px;
-  color: #5590C0;
+  color: red;
 }
 
-.animation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 75px;
+.splash-content {
+  margin-top: 120px;
+  width: 1920x;
+  color: white;
 }
 
-.plane-align {
-  margin-left: 50px;
+.avatar-center {
+  text-align: center;
 }
+
+.flag-size {
+  width: 60px;
+  height: 64px;
+}
+
+.splash-h1 {
+  font-size: 42px;
+  font-family: 'Montserrat'
+}
+
+.splash-h3 {
+  font-size: 18px;
+}
+
+.splash-btn {
+  margin: 10px;
+  font-family: 'Montserrat'
+}
+
+.splash-div {
+  margin-top: 60px;
+}
+
+.loading {
+  height: 12px;
+}
+
+.div-sep {
+  margin-bottom: 10px;
+}
+
+#indev {
+  font-size: 13px;
+  font-weight: 800;
+  text-align:center;
+  color:red;
+  font-family: 'Montserrat'
+}
+
+.splash-icons {
+  color:white;
+}
+
+.btn:hover {
+  background-color:transparent;
+  color:red;
+}
+
+
+
+
 
 
 
