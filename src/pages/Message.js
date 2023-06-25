@@ -1,6 +1,6 @@
-import React from 'react';
+import * as React from 'react';
 
-const Personal = () => {
+const Message = () => {
 
     return (
       <div>
@@ -13,4 +13,4 @@ const Personal = () => {
     );
 }
 
-export default Personal;
+export default Message;

@@ -40,6 +40,7 @@ Footer {
   left:0;
   bottom:0;
   right:0;
+  
 }
 
 .footicon {
@@ -73,7 +74,15 @@ Footer {
 
 .splash-btn {
   margin: 10px;
-  font-family: 'Montserrat'
+  font-family: 'Montserrat';
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  text-align:center;
+}
+
+.splash-btn:hover {
+  color:rgb(183, 185, 185);
 }
 
 .splash-div {
@@ -100,10 +109,15 @@ Footer {
   color:white;
 }
 
-.btn:hover {
-  background-color:transparent;
+.splash-icons:hover {
   color:red;
 }
+
+
+
+
+
+
 
 
 

@@ -5,6 +5,8 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Splash from './pages/Splash';
+import Message from './pages/Message';
+import Personal from './pages/Personal';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <div>
           <Routes>
             <Route path="/" element={<Splash />} />
+            <Route path="/message" element={<Message />} />
+            <Route path="/personalprojects" element={<Personal />} />
           </Routes>
         </div>
         <Footer />
