@@ -13,11 +13,13 @@ $color: rgb(255, 255, 255);
 .bg {
   background-color: $color;
   animation: loading $loadingTime linear infinite;
+  border-radius: 8px;
 }
 
 .el{
   color: $color;
   width: 200px;
   border: 1px solid $color;
-  
+  border-radius: 8px;
 }
+
