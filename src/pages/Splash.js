@@ -5,8 +5,6 @@ import Stack from '@mui/material/Stack';
 import { Link } from 'react-router-dom';
 
 
-
-
 const Splash = () => {
 
     const [showElement, setShowElement] = React.useState(false)
@@ -20,11 +18,6 @@ const Splash = () => {
 
     return (
       <div>
-        <div>
-          <video autoPlay muted loop id="myVideo">
-            <source src="sourcebg.mp4" type="video/mp4" />
-          </video>
-        </div>
         <div className="splash-content d-flex justify-content-center">
           <Stack
             direction="row"
@@ -36,7 +29,7 @@ const Splash = () => {
               src="/jaq.jpg"
               sx={{ height: "140px", width: "140px" }}
             />
-            <h1 className="splash-h1 google-test">Jaqsen Meyer</h1>
+            <h1 className="splash-h1">Jaqsen Meyer</h1>
             <div className="typewriter">
               <h3 className="splash-h3">
                 Software Engineer - reporting from USA, Earth
@@ -83,7 +76,7 @@ const Splash = () => {
                   <i class="fa-solid fa-laptop splash-icons"></i>
                 </button> */}
                 <p>02 | Personal Projects{" "}
-                  <i class="fa-solid fa-laptop splash-icons"></i></p>
+                  <i className="fa-solid fa-laptop splash-icons"></i></p>
               </Link>
               <Link to="/bootcamp" className="splash-btn">
                 {/* <button

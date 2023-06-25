@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './loading.css';
 import './Type.css';
+import './Message.css';
 import App from './App';
 
 

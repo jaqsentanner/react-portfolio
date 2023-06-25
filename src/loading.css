@@ -9,10 +9,12 @@
 .bg {
   background-color: rgb(255, 255, 255);
   animation: loading 10s linear infinite;
+  border-radius: 8px;
 }
 
 .el {
   color: rgb(255, 255, 255);
   width: 200px;
   border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
 }

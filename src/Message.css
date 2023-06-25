@@ -1,0 +1,32 @@
+.page h1.splitting {
+  color: #84a8ff;
+}
+.page h1.splitting .char {
+  transition: transform 0.3s cubic-bezier(0.3, 0, 0.3, 1), opacity 0.3s linear;
+  transition-delay: calc(20ms * var(--char-index));
+}
+.page h1.splitting[data-scroll=out] .char {
+  opacity: 0.1;
+  transform: translateY(0.25em);
+}
+
+/* ---------------------------------- */
+.page {
+  max-width: 30em;
+  margin: auto;
+  overflow: hidden;
+}
+
+.page h1 {
+  font-size: 28px;
+}
+
+.page p {
+  font-size: 15px;
+}
+
+.p-border {
+  border-bottom: 1px solid white;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
