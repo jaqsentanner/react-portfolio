@@ -24,7 +24,7 @@ function App() {
             <Route path="/faq" element={<Frequent />} />
           </Routes>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
